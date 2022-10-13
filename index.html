@@ -1,0 +1,11 @@
+<script src="https://unpkg.com/@esotericsoftware/spine-player@4.0.*/dist/iife/spine-player.js">
+<link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.0.*/dist/spine-player.css">
+
+<div id="player-container" style="width: 640px; height: 480px;"></div>
+
+<script>
+new spine.SpinePlayer("player-container", {
+      jsonUrl: "/Character.json",
+      atlasUrl: "/Character.atlas",
+});
+</script>
